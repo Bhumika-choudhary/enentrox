@@ -439,7 +439,7 @@ color:#ffffff;
 	margin-right: 0;
 }
 
-.social-icon-one li a .fab{
+.social-icon-one li a .fab {
 	position:relative;
 	display:block;
 	height: 40px;
@@ -456,15 +456,46 @@ color:#ffffff;
     -o-transition: all 900ms ease;
 }
 
-.social-icon-one li a:hover .fab{
+.social-icon-one li a:hover .fab {
 	transform:rotate(360deg);
 }
 
-.social-icon-one li a:hover .fab{
+.social-icon-one li a:hover .fab {
 	background-color: #e1137b;
 	border-color: #e1137b;
 	color: #ffffff;
 }
+
+
+.social-icon-one li a .fa-brands {
+	position:relative;
+	display:block;
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size:16px;
+	color:#a9b1bf;
+	background-color: #373851;
+	transition: all 900ms ease;
+    -moz-transition: all 900ms ease;
+    -webkit-transition: all 900ms ease;
+    -ms-transition: all 900ms ease;
+    -o-transition: all 900ms ease;
+}
+
+.social-icon-one li a:hover .fa-brands {
+	transform:rotate(360deg);
+}
+
+.social-icon-one li a:hover .fa-brands {
+	background-color: #e1137b;
+	border-color: #e1137b;
+	color: #ffffff;
+}
+
+
+
 
 /*Social Icon Two*/
 
